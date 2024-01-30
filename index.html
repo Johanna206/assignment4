@@ -4,25 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team 1 Homepage</title>
+    <style>
+        * {
+        padding: 0;
+        margin: 0;
+        }
+        div#wrapper {
+        width: 940px;
+        margin: 0 auto 0 auto;
+        background: darkgray;
+        padding: 20px;
+        } 
+        h1, h2, h3, p {
+        margin-bottom: 15px;
+        }
+        /* each team member's preferred color */
+        h3#johanna {border: magenta 10px solid;
+        display: inline-block;
+        }
+        h3#antonio {border: green 10px solid;
+        display: inline-block;
+        }
+        h3#chris {border: blue 10px solid;
+        display: inline-block;
+        }
+        h3#dinesh {border: orangered 10px solid;
+        display: inline-block;
+        }
+        h1{ text-align: center;}
+        body {
+            background-color: darkgray;
+        }
+     </style>
 </head>
 <body>
+    <div id="wrapper">
     <h1>Team 1 Homepage</h1>
     <!-- Each team member's profile and role description -->
-    <h3>Johanna</h3>
+    <h3 id="johanna">Johanna</h3>
     <p><em>Role: Repository Owner</em></p>
-    <p>Keeps workflow organized, approves pull requests.</p>
+    <p>Creates repository. Keeps workflow organized, approves pull requests.</p>
  
-    <h3>Antonio</h3>
+    <h3 id="antonio">Antonio</h3>
     <p><em>Role: UI designer</em></p>
     <p>focuses on product usability and functionality,.</p>
 
-    <h3>Dinesh</h3>
+    <h3 id="dinesh">Dinesh</h3>
     <p><em>Role: Product Owner</em></p>
     <p>Creates product requirements to meet customer goals.</p>
 
-	<h3>Chris Simpson</h3>
+	<h3 id="chris">Chris Simpson</h3>
 	<p><em>Role: QA and Editor </em></p>
 	<p> To ensure functionality and to give suggestions and improvment requests.</p>
-
+</div>
 </body>
 </html>
